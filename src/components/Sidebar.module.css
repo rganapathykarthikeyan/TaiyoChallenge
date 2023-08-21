@@ -1,0 +1,11 @@
+.container{
+    @apply fixed left-0 top-0 bottom-0 m-0 bg-slate-400;
+}
+
+.allitems{
+    @apply flex flex-col h-full justify-center items-center
+}
+
+.item{
+    @apply p-5 flex flex-row justify-evenly
+}
