@@ -1,0 +1,23 @@
+.mainContainer {
+    @apply p-8 pl-40 w-full
+}
+
+.listContainer {
+    @apply p-8 flex flex-row w-11/12 justify-start flex-wrap
+}
+
+.title {
+    @apply text-4xl font-extrabold
+}
+
+.btnAdd {
+    @apply rounded-lg bg-neutral-700 p-2 mt-4
+}
+
+.btnAdd:hover {
+    @apply rounded-lg bg-neutral-800 p-2
+}
+
+.noContact {
+    @apply border-white border-solid border-2 p-4
+}

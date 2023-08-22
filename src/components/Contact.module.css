@@ -1,0 +1,27 @@
+.contactContainer{
+    @apply bg-gray-700 m-5 p-5 
+}
+
+.first {
+    @apply text-2xl font-bold
+}
+
+.second {
+    @apply text-xl font-semibold
+}
+
+.btnEdit {
+    @apply rounded-lg bg-green-700 p-3 m-4
+}
+
+.btnEdit:hover {
+    @apply bg-green-800
+}
+
+.btnDanger {
+    @apply rounded-lg bg-red-700 p-3 m-4
+}
+
+.btnDanger:hover {
+    @apply bg-red-800 
+}

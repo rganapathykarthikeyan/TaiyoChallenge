@@ -3,13 +3,15 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ContactPage from './pages/ContactPage';
 import ChartPage from './pages/ChartPage';
 import AddContact from './pages/AddContact';
+import EditContact from './pages/EditContact';
 
 
 //Create Router for react Router for routing pages from the sidebar
 const route = createBrowserRouter([
   {path:'/', element: <ContactPage />},
   {path:'/chart', element: <ChartPage />},
-  {path:'/addcontact', element: <AddContact />}
+  {path:'/addcontact', element: <AddContact />},
+  {path:'/editcontact/:id', element: <EditContact />}
 ]);
 
 function App() {
