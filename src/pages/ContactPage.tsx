@@ -1,8 +1,14 @@
 import React from 'react'
+import Sidebar from '../components/Sidebar';
+import {Link} from 'react-router-dom'
 
 const ContactPage = () => {
   return (
-    <div>ContactPage</div>
+    <>
+      <Sidebar></Sidebar>
+      <div>ContactPage</div>
+      <Link to='/addcontact'><button>Add Contact</button></Link>
+    </>
   )
 }
 

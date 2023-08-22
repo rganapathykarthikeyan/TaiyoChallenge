@@ -1,8 +1,12 @@
 import React from 'react'
+import Sidebar from '../components/Sidebar';
 
 const ChartPage = () => {
   return (
-    <div>ChartPage</div>
+    <>
+    <Sidebar></Sidebar>
+    <div>Chart Page</div>
+  </>
   )
 }
 

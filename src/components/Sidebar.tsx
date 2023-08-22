@@ -2,19 +2,20 @@ import React from 'react';
 import { BiSolidContact } from 'react-icons/bi';
 import { FaRegChartBar } from 'react-icons/fa';
 import classes from "./Sidebar.module.css";
+import { Link } from 'react-router-dom'
 
 const Sidebar = () => {
     return (
         <div className={classes.container}>
             <div className={classes.allitems}>
-                <div className={classes.item}>
+                <Link to='/' className={classes.item}>
                     <BiSolidContact size={28}/> 
                     <span>Contacts</span>
-                </div>
-                <div className={classes.item}>
+                </Link>
+                <Link to='/chart' className={classes.item}>
                     <FaRegChartBar size={28}/> 
                     <span>Charts & Maps</span>
-                </div>
+                </Link>
             </div>
         </div>
     )
