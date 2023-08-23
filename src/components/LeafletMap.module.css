@@ -1,0 +1,11 @@
+.mapArea{
+    @apply ml-52 bg-slate-300 w-4/5 rounded-2xl;
+    height: 70vh;
+}
+
+@media (max-width: 850px) {
+    .mapArea{
+        @apply ml-40 bg-slate-300 w-3/4 rounded-2xl;
+        height: 70vh;
+    }
+}

@@ -16,7 +16,6 @@ interface data{
 }
 
 const LineChart = (props: any) => {
-  console.log(props.data)
   return (
     <>
         <div className={classes.LineGraph}>

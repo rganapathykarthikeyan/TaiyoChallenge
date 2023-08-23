@@ -1,0 +1,22 @@
+.infoflag{
+    @apply w-28 rounded-md;
+}
+
+.infoname {
+    @apply text-xl font-bold;
+    color: #555;
+}
+
+.infocontainer {
+    @apply w-40 
+}
+
+.infoflag {
+    @apply h-24 w-full bg-cover rounded-lg
+}
+
+.infoconfirmed,
+.inforecovered,
+.infodeaths {
+    @apply mt-1 text-base
+}
