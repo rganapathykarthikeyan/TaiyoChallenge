@@ -80,7 +80,7 @@ const EditContact = () => {
                 <input type='radio' name='NotActive' value='NotActive' checked={!isActive}  onChange={ActiveStatus}/> Not Active
             </div>
             </div>
-            <button type='submit' className={classes.btnAdd}>Save Contact</button>
+            <button type='submit' className={classes.btnAdd}>Save Edited Contact</button>
         </form>
         </div>
     </>

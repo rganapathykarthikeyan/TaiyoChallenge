@@ -1,0 +1,14 @@
+.title {
+    @apply text-4xl font-extrabold
+}
+.btnChange {
+    @apply rounded-lg bg-neutral-700 p-2 mt-4
+}
+
+.btnChange:hover {
+    @apply rounded-lg bg-neutral-800 p-2
+}
+
+.subtitle {
+    @apply text-2xl font-semibold
+}
