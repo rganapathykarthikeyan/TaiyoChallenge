@@ -9,3 +9,18 @@
 .item{
     @apply p-5 flex flex-row justify-evenly
 }
+
+@media (max-width: 850px) {
+    .container{
+        @apply w-28
+    }
+}
+
+@media (max-width: 550px) {
+    .container{
+        @apply w-12
+    }
+    .name{
+        @apply hidden
+    }
+}

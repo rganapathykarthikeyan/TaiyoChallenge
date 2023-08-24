@@ -12,12 +12,16 @@ export interface ContactState {
     Status: boolean
 }
 
+//initial State is the Dummy Data used for testing
+
 const initialState: ContactListState = {
     contacts: 
     [ {id:0, firstName:"Hello", lastName: "World", Status:true}, 
     {id:1, firstName:"The", lastName: "Second", Status:false},
     {id:4, firstName:"Third", lastName: "Hokage", Status:false}, ]
 }
+
+// CreateSlice is used from reduxjs/toolkit to create a slice with the reducers
 
 const contactSlice = createSlice({
     name:"contacts",
@@ -40,6 +44,8 @@ const contactSlice = createSlice({
 const store = configureStore({
     reducer: contactSlice.reducer
 });
+
+//contactSlice.action is used to export the reducers that are within the slice
 
 export const contactActions = contactSlice.actions;
 

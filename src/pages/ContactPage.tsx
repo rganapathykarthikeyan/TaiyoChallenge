@@ -1,15 +1,14 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar';
 import { Link } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
-import { contactActions, ContactListState } from '../store/index';
+import { useSelector } from 'react-redux';
+import { ContactListState } from '../store/index';
 import Contact from '../components/Contact';
 
 import classes from './ContactPage.module.css'
 
 const ContactPage = () => {
 
-  const dispatch = useDispatch();
   const contactList = useSelector((state: ContactListState) => state.contacts)
   return (
     <>

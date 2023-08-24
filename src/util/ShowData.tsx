@@ -31,6 +31,7 @@ const casesTypeColors:TypeColors = {
 
 type T = keyof typeof casesTypeColors;
 
+//Show Data is used to display the data over the leaflet Map
 
 export const ShowData = (countries:any, casesType:string) => 
     countries.map((country:any) => (

@@ -1,3 +1,16 @@
 .LineGraph{
-    @apply w-2/3 h-3/6 ml-44
+    @apply w-2/3 ml-44;
+    height: 70vh;
+}
+
+@media (max-width: 850px) {
+    .LineGraph{
+        @apply ml-32;
+    }
+}
+
+@media (max-width: 550px) {
+    .LineGraph{
+        @apply ml-20;
+    }
 }

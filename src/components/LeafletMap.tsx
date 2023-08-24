@@ -9,6 +9,8 @@ interface Countrytype {
   casesType: string
 }
 
+//We ue MapContainer & TileLayer to display the map. Map is from OpenStreetMap
+
 const LeafletMap: React.FC<Countrytype> = ({countries, casesType}) => {
   return (
     <div>

@@ -37,7 +37,13 @@ const AddContact = () => {
 
   const onSubmitHandler = (event: any) => {
     event.preventDefault()
-    const ids = contactList[contactList.length-1].id
+    let ids;
+    if(contactList.length === 0){
+      ids=-1;
+    }
+    else{
+      ids = contactList[contactList.length-1].id
+    }
     const ContactItem:ContactState = {
       id: ids+1,
       firstName: fname,

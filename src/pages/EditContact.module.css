@@ -24,3 +24,15 @@
 .inputField{
     @apply bg-transparent border-b-2
 }
+
+@media (max-width: 850px) {
+    .mainContainer {
+        @apply pl-32
+    }
+}
+
+@media (max-width: 550px) {
+    .mainContainer {
+        @apply pl-10
+    }
+}

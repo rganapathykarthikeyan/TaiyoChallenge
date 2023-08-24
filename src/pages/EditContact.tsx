@@ -51,7 +51,7 @@ const EditContact = () => {
         dispatch(contactActions.editContact(ContactItem));
         navigate('/');
     }
-
+    // useEffect is used to get the values of the selected contact, + sign is used to convert string to number
     useEffect(()=> {
         const filteredContact = contactList.filter((item) => { return item.id === +contactId});
         setFname(filteredContact[0].firstName);

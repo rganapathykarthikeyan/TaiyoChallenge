@@ -13,6 +13,8 @@ const queryClient = new QueryClient();
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+//App is enclosed within Provider for react-redux and QueryClientProvider for react-query to access them from all files
 root.render(
   <React.StrictMode>
     <Provider store={store}>
